@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    /* background-color: #f6f1e7; */
+/*  */}
+
+@font-face {
+    font-family: light;
+    src: url(font/CreatoDisplay-Light.otf);
+}
+
+@font-face {
+    font-family: "Fonte texto";
+    src: url(Font/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Fonte titulo";
+    src: url(Font/Inter_18pt-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Fonte titulo2";
+    src: url(Font/CreatoDisplay-Black.otf);
+}
+
+@font-face {
+    font-family: "Fonte titulo3";
+    src: url(Font/CreatoDisplay-Medium.otf);
+}
+
+@font-face {
+  font-family: "Fonte";
+  src: url(Font/Barcelony.ttf);
+}
+
+body {
+    background-color: #F6F6EE;
+}
+
+header {
+    background-color: #F6F6EE;
+    color: black;
+    padding: 35px 0;
+    border-bottom: 1px solid #000000; 
+    font-family: "Fonte texto";
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+.inicio{
+  margin-left: 580px;
+}
+
+.logo{
+    background-color: #000000;
+}
+
+header nav a {
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 35px;
+    font-family: "Fonte texto";
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* LINHA ABAIXO DO A */
+#navegacao{
+  position: relative; 
+}
+
+
+#navegacao::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: #000000;
+  position: absolute;
+  bottom: -4px; 
+  left: 0;
+  transition: width 0.4s ease-in-out;
+}
+
+
+#navegacao:hover::after {
+  width: 100%;
+}
+
+/* até aq */
+
+
+
+.icone {
+    margin-right: 40px;
+}
+
+/* section comeco */
+
+.animacao{
+    font-family: Fonte Texto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.futuVideo{
+    height: 400px;
+    margin-top: 40px;
+}
+
+.desc{
+    margin-top: 30px;
+    width: 660px;
+    text-align: center;
+}
+
+/* fim da pagina bum */
+
+/* inicio da div quem somos */
+
+.quemSomos{
+    margin-top: 50px;
+    height: 648px;
+    background-image: url(img/equipe.png);
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    padding-left: 80px;
+}
+
+.textoQ{
+    width: 500px;
+    /* padding-top: 250px; */
+}
+
+h2{
+    font-size: 50px;
+    font-family: Fonte titulo;
+    color: white;
+    width: 500px;
+    margin-bottom: 25px;
+}
+
+.somos{
+    font-family: light;
+    color: white;
+    font-size: 18px;
+}
+
+.more{
+    margin-top: 25px;
+    background-color: rgba(255, 192, 203, 0);
+    border: 1px solid white;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Fonte titulo3;
+    color: white;
+}
+
+/* parte dos textos nos numeros fim  */
+
+/* comeco das caixas de numero */
+
+.numeros{
+    background-color: #0B1956;
+    width: 320px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px 5px 5px 5px;
+}
+
+.numero{
+background-color: #00000000;
+border: 1px solid white;
+width: 290px;
+height: 400px;
+display: flex;
+flex-direction: column;
+border-radius: 100px 5px 5px 5px;
+/* justify-content: center; */
+/* align-items: center; */
+}
+
+.numbertext{
+    display: flex;
+    margin-top: 20px;
+}
+h1{
+    font-size:130px;
+    color: white;
+    opacity: 32%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.number{
+    width: 200px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.num{
+    color: white;
+    font-family: light;
+    font-size:15px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+span{
+    font-size: 40px;
+    font-family: Fonte titulo;
+    color: white;
+    width: 500px;
+}
+
+/* caixa dois */
+
+.numeros1{
+    background-color: #F6F1E7;
+    width: 320px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px 5px 5px 5px;
+    margin-left: 50px;
+    border: 1.5px solid #0B1956;
+}
+
+.numero1{
+background-color: #00000000;
+width: 320px;
+height: 420px;
+display: flex;
+flex-direction: column;
+border-radius: 100px 5px 5px 5px;
+/* justify-content: center; */
+/* align-items: center; */
+}
+
+.numbertext1{
+    display: flex;
+    margin-top: 20px;
+}
+.um{
+    font-size:130px;
+    color: #0B1956;
+    margin-left: 40px;
+    margin-top: 20px;
+    opacity: 100%;
+}
+
+.number1{
+    width: 200px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.num1{
+    color: #426CC2;
+    font-family: light;
+    font-size:15px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-weight: 300;
+}
+
+.dois{
+    font-size: 40px;
+    font-family: Fonte titulo;
+    color: #426CC2;
+    width: 500px;
+    position: relative;
+    top: 60px;
+    margin-left: 5px;
+}
+
+.next{
+    margin-top: 25px;
+    background-color: rgba(255, 192, 203, 0);
+    border: 1px solid white;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Fonte titulo3;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 230px;
+    right: 15px;
+}
+
+/* fim da caixa dos numeros */
+
+/* começo da parte do objetivo */
+
+.objetivo{
+    background-color: #F6F2E7;
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Qual{
+    font-family: Fonte titulo3;
+    font-size: 30px;
+    margin-top: 50px
+}
+
+.tematext{
+    width: 290px;
+    font-family: light;
+    text-align: center;
+}
+
+.nosso{
+    font-family: Fonte titulo3;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tema{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.tema img{
+  margin-bottom: 20px;
+}
+
+/* fim da parte dos objetivos  */
+
+/* começo do recursos */
+
+.Quaal{
+    font-family: Fonte titulo3;
+    font-size: 30px;
+    margin-top: 150px
+}

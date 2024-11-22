@@ -636,8 +636,10 @@ header nav a {
   }
 
   /* EFEITOS DE HOVER */
+
   .links a:hover {
     font-family: "Fonte titulo";
+    transition: color 0.5s ease;
 }
 
 /* FIM!!!! */

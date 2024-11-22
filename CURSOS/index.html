@@ -17,11 +17,28 @@
                 <a id="navegacao" href="#">Jogos</a>
                 <a id="navegacao" href="http://localhost:3100/adicionar">Login</a>
                 
-               <a href=""><img class="icone" src="Icones/menu.png" alt="Menu"></a>
+                <nav role="navigation">
+                    <!-- container do menu -->
+                    <div id="menuAlternar"> 
+                        <input type="checkbox" id="menuCheckbox" onclick="document.body.classList.toggle('menu-aberto');" />
+                        <h1 class="espaco"></h1>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <!-- itens do menu-->
+                        <ul id="menu">
+                            <li><a href="#">Início</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Dicionário</a></li>
+                            <li><a href="#" >Contate-nos</a></li>
+                        </ul>
+                    </div>
+                </nav>
             </nav>
         </div>
     </header>
        
+    <main id="conteudoPrincipal"> 
         <section class="secao-principal">
             <div class="texto-principal">
                 <p>A PRÁTICA É A MÃE DO APRENDIZADO</p>
@@ -57,7 +74,7 @@
                         <div class="capa">
                         <img src="Ebooks/CAPAebook1.png" alt="Livro 1"> 
                         </div>
-                        <p>Aprenda A Minha Tabuada em <br>Libras</p>
+                        <p>A Minha Tabuada em <br>Libras</p>
                         <a href="https://issuu.com/annaloyde/docs/livro_-_minha_tabuada_em_libras" target="_blank">
                             <button class="botao-livro">BAIXAR</button>
                         </a>
@@ -216,5 +233,6 @@
           
           <script src="script.js"></script>
           <script src="video.js"></script>
+          </main>
 </body>
 </html>

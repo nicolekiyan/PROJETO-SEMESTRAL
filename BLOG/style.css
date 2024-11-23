@@ -25,6 +25,11 @@
     src: url(Fontes/CreatoDisplay-Medium.otf);
 }
 
+@font-face{
+  font-family: "Fonte frase";
+  src: url(Fontes/buttercup_sample.ttf);
+}
+
 
 body {
     background-color: #ffffff;
@@ -575,13 +580,13 @@ header nav a {
 
 
   .citacao p{
-    font-family: "Fonte texto";
+    font-family: "Fonte frase";
     font-weight: italic;
     text-align: center;
     justify-content: center;
     align-items: center;
     justify-items: center;
-    font-size: 30px;
+    font-size: 40px;
     padding: 40px;
     color: black;
     width: 100%;
@@ -592,6 +597,7 @@ header nav a {
   .citacao span {
     color: #696969;
     font-size: 15px;
+    font-family: "Fonte titulo";
   }
   
 

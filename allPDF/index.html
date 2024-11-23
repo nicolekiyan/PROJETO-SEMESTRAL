@@ -12,12 +12,27 @@
         <div class="container">
             <img class="logo" src="Imagens/logo.png" alt="">
             <nav>
-                <a class="inicio" id="navegacao" href="#">Início</a>
+                <a class="inicio" id="navegacao" href="../index.html">Início</a>
                 <a id="navegacao" href="../CURSOS/index.html">Cursos</a>
-                <a id="navegacao" href="#">Jogos</a>
-                <a id="navegacao" href="http://localhost:3000/adicionar">Login</a>
+                <a id="navegacao" href="http://localhost:3100/adicionar">Login</a>
                 
-               <a href=""><img class="icone" src="Icones/menu.png" alt="Menu"></a>
+                <nav role="navigation">
+                    <!-- container do menu -->
+                    <div id="menuAlternar"> 
+                        <input type="checkbox" id="menuCheckbox" onclick="document.body.classList.toggle('menu-aberto');" />
+                        <h1 class="espaco"></h1>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <!-- itens do menu-->
+                        <ul id="menu">
+                            <li><a href="../index.html">Início</a></li>
+                            <li><a href="../BLOG/index.html">Blog</a></li>
+                            <li><a href="../Dicionario/index.html">Dicionário</a></li>
+                            <li><a href="../index.html#footer" >Contate-nos</a></li>
+                        </ul>
+                    </div>
+                </nav>
             </nav>
         </div>
     </header>

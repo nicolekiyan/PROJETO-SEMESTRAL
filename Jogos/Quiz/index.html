@@ -7,20 +7,37 @@
     <link rel="stylesheet" href="style.css">
    
 </head>
-<body>
-    <header>
-        <div class="container">
-            <img class="logo" src="Logo/logo.png" alt="">
-            <nav>
-                <a class="inicio" id="navegacao" href="#">Início</a>
-                <a id="navegacao" href="../CURSOS/index.html">Cursos</a>
-                <a id="navegacao" href="#">Jogos</a>
-                <a id="navegacao" href="http://localhost:3000/adicionar">Login</a>
-                
-               <a href=""><img class="icone" src="Icones/menu.png" alt="Menu"></a>
+  <header>
+    <div class="container">
+        <img class="logo" src="Logo/logo.png" alt="">
+        <nav>
+            <a class="inicio" id="navegacao" href="../../index.html">Início</a>
+            <a id="navegacao" href="../../CURSOS/index.html">Cursos</a>
+            <a id="navegacao" href="http://localhost:3100/adicionar">Login</a>
+            
+            <nav role="navigation">
+                <!-- container do menu -->
+                <div id="menuAlternar"> 
+                    <input type="checkbox" id="menuCheckbox" onclick="document.body.classList.toggle('menu-aberto');" />
+                    <h1 class="espaco"></h1>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <!-- itens do menu-->
+                    <ul id="menu">
+                        <li><a href="../../index.html">Início</a></li>
+                        <li><a href="../../BLOG/index.html">Blog</a></li>
+                        <li><a href="../../Dicionario/index.html">Dicionário</a></li>
+                        <li><a href="../../PaginaDeJogos/index.html">Jogos</a></li>
+                        <li><a href="../../index.html#footer" >Contate-nos</a></li>
+                    </ul>
+                </div>
             </nav>
-        </div>
-    </header>
+        </nav>
+    </div>
+</header>
+   
+<main id="conteudoPrincipal"> 
     
   <section id="container-principal">
    
@@ -65,11 +82,11 @@ new window.VLibras.Widget('https://vlibras.gov.br/app');
     <div class="secao-footer links">
       <ul>
         <a class = "aFooter" href=""><li>Sobre nós</li></a>
-        <a class = "aFooter" href=""><li>Cursos</li></a>
-        <a class = "aFooter" href="../BLOG/index.html"><li>Blog</li></a>
+        <a class = "aFooter" href="../../CURSOS/index.html"><li>Cursos</li></a>
+        <a class = "aFooter" href="../../BLOG/index.html"><li>Blog</li></a>
         <a class = "aFooter" href=""><li>Chat</li></a>
-        <a class = "aFooter" href=""><li>Dicionário</li></a>
-        <a class = "aFooter" href=""><li>Jogos</li></a>
+        <a class = "aFooter" href="../../Dicionario/index.html"><li>Dicionário</li></a>
+        <a class = "aFooter" href="../../PaginaDeJogos/index.html"><li>Jogos</li></a>
       </ul>
     </div>
 
@@ -99,6 +116,7 @@ new window.VLibras.Widget('https://vlibras.gov.br/app');
 <div class="barra-escura-footer"></div>
 
 <script src="script.js"></script>
+</main>
 </body>
 </html>
 

@@ -21,10 +21,6 @@
     src: url(font/Inter_18pt-Bold.ttf);
 }
 
-@font-face {
-    font-family: "FOOTER";
-    src: url(font/Inter_18pt-Bold.ttf);
-}
 
 @font-face {
     font-family: "Fonte titulo2";
@@ -266,7 +262,7 @@ header {
 /* section comeco */
 
 .animacao{
-    font-family: Fonte Texto;
+    font-family: "Fonte Texto";
     align-items: center;
     justify-content: center;
     display: flex;
@@ -305,7 +301,7 @@ header {
 
 h2{
     font-size: 50px;
-    font-family: Fonte titulo;
+    font-family: "Fonte titulo";
     color: white;
     width: 500px;
     margin-bottom: 25px;
@@ -324,7 +320,7 @@ h2{
     width: 90px;
     height: 30px;
     border-radius: 5px;
-    font-family: Fonte titulo3;
+    font-family: "Fonte titulo3";
     color: white;
     cursor: pointer;
 }
@@ -384,7 +380,7 @@ h1{
 
 span{
     font-size: 40px;
-    font-family: Fonte titulo;
+    font-family: "Fonte titulo";
     color: white;
     width: 500px;
 }
@@ -444,7 +440,7 @@ border-radius: 100px 5px 5px 5px;
 
 .dois{
     font-size: 40px;
-    font-family: Fonte titulo;
+    font-family: "Fonte titulo";
     color: #426CC2;
     width: 500px;
     position: relative;
@@ -459,7 +455,7 @@ border-radius: 100px 5px 5px 5px;
     width: 150px;
     height: 30px;
     border-radius: 5px;
-    font-family: Fonte titulo3;
+    font-family: "Fonte titulo3";
     color: white;
     align-items: center;
     justify-content: center;
@@ -483,7 +479,7 @@ border-radius: 100px 5px 5px 5px;
 }
 
 .Qual{
-    font-family: Fonte titulo3;
+    font-family: "Fonte titulo3";
     font-size: 30px;
     margin-top: 50px
 }
@@ -495,7 +491,7 @@ border-radius: 100px 5px 5px 5px;
 }
 
 .nosso{
-    font-family: Fonte titulo3;
+    font-family: "Fonte titulo3";
     font-size: 20px;
     font-weight: 900;
     margin-bottom: 10px;
@@ -575,7 +571,7 @@ border-radius: 100px 5px 5px 5px;
 
 .retan{
     color: white;
-    font-family: Fonte titulo3;
+    font-family: "Fonte titulo3";
     font-size: 30px;
     margin-top: 10px;
 }
@@ -622,7 +618,7 @@ border-radius: 100px 5px 5px 5px;
 
 .dic{
     font-size: 40px;
-    font-family: Fonte titulo;
+    font-family: "Fonte titulo";
     color: white;
     width: 200px;
     margin-top: 20px;
@@ -788,7 +784,7 @@ footer {
 
   /* EFEITOS DE HOVER */
   .links a:hover {
-    font-family: "FOOTER";
+  font-family: "Fonte titulo";
 }
 
 /* FIM!!!! */

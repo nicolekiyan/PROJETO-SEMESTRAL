@@ -430,7 +430,7 @@ transform: translateX(100%); /* deixa o menu fora da tela */
   font-family: "Fonte texto";
 }
 
-button {
+.reiniciar {
   padding: 12px 20px;
   background-color: #0B1956;
   color: #fff;
@@ -443,13 +443,13 @@ button {
   font-family: "Fonte titulo";
 }
 
-button:hover {
+.reiniciar:hover {
 color: #0B1956;
 background-color: white;
 border: 1px solid #0B1956;
 }
 
-button:focus {
+.reiniciar:focus {
   outline: none;
 }
 

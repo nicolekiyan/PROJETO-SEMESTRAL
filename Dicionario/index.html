@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chat.css">
     <title>Dicionário de Libras</title>
 </head>
 <body>
@@ -18,6 +19,83 @@
             <div id="container__result"></div>
         </div>
     </div>    
+
+     <!-- CHAT  -->
+     <div class="botaoCHAT">
+        <button id="abrir-chat-btn" class="abrir-chat-btn"><img src="Imagens/chat.png" alt=""></button>
+        <h1 class="explicacao">Chat Librali</h1>
+    </div>
+  <div class="container-chat escondido">
+    <div class="header-chat">
+      <span class="titulo-chat">Chat Librali</span>
+      <button id="fechar-chat-btn" class="fechar-chat-btn"><img src="Imagens/X.png" alt="Fechar"></button>
+    </div>
+    <div id="janela-chat" class="janela-chat"></div>
+    <div class="area-input">
+      <input type="text" id="entrada-usuario" placeholder="Digite sua mensagem...">
+      <button id="enviar-btn"><img class="setinha" src="Imagens/seta.png" alt=""></button>
+    </div>
+  </div>
+
+  <!-- TERMINA AQUI !!!!!! -->
+
+
+   <!-- EXTENSÃO DE LIBRAS -->
+   <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+  
+
+
+
+
+  <footer>
+    <div class="conteudo-footer">
+      <div class="secao-footer links">
+        <ul>
+          <a class = "aFooter" href=""><li>Sobre nós</li></a>
+          <a class = "aFooter" href=""><li>Cursos</li></a>
+          <a class = "aFooter" href="../BLOG/index.html"><li>Blog</li></a>
+          <a class = "aFooter" href=""><li>Chat</li></a>
+          <a class = "aFooter" href=""><li>Dicionário</li></a>
+          <a class = "aFooter" href=""><li>Jogos</li></a>
+        </ul>
+      </div>
+  
+      <div class="divisoria1"></div>
+  
+      <div class="secao-footer newsletter">
+        <h3>Newsletter</h3>
+        <p>Inscreva-se em nosso newsletter e receba todas as <br>novidades</p>
+        <form>
+          <input type="email" placeholder="Email">
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+  
+      <div class="divisoria"></div>
+  
+      <div class="secao-footer-contato">
+        <h4>Contate-nos</h4>
+        <p><img src="Icones/telefone.png" alt="Ícone Telefone">(11) 93211 - 7232</p>
+        <p><img src="Icones/email.png" alt="Ícone Email"> librali@gmail.com</p>
+        <p><img src="Icones/local.png" alt="Ícone Localização"> Ferraz de Vasconcelos - SP</p>
+        <p><img src="Icones/instagram.png" alt="Ícone Instagram"> @librali</p>
+      </div>
+    </div>
+
+  </footer>
+  <div class="barra-escura-footer"></div>
+
+
     <script src="script.js"></script>
+    <script src="chat.js"></script>
 </body>
 </html>

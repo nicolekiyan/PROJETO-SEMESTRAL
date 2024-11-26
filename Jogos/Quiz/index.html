@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QUIZ</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chat.css">
    
 </head>
   <header>
@@ -58,6 +59,30 @@
       <button onclick="reiniciarQuiz()">Jogar Novamente</button>
     </section>
   </section>
+
+
+
+
+
+   <!-- CHAT  -->
+   <div class="botaoCHAT">
+    <button id="abrir-chat-btn" class="abrir-chat-btn"><img src="imagens/chat.png" alt=""></button>
+    <h1 class="explicacao">Chat Librali</h1>
+</div>
+<div class="container-chat escondido">
+<div class="header-chat">
+  <span class="titulo-chat">Chat Librali</span>
+  <button id="fechar-chat-btn" class="fechar-chat-btn"><img src="imagens/X.png" alt="Fechar"></button>
+</div>
+<div id="janela-chat" class="janela-chat"></div>
+<div class="area-input">
+  <input type="text" id="entrada-usuario" placeholder="Digite sua mensagem...">
+  <button id="enviar-btn"><img class="setinha" src="imagens/seta.png" alt=""></button>
+</div>
+</div>
+
+<!-- TERMINA AQUI !!!!!! -->
+
 
 
 
@@ -116,6 +141,7 @@ new window.VLibras.Widget('https://vlibras.gov.br/app');
 <div class="barra-escura-footer"></div>
 
 <script src="script.js"></script>
+<script src="chat.js"></script>
 </main>
 </body>
 </html>

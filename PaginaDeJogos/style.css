@@ -560,6 +560,7 @@ font-family: "Fonte texto";
     background-image: url(img/fim.png);
     height: 409px;
     width: 679px;
+    border-radius: 0px 80px 0px 0px;
 }
 
 .bene{

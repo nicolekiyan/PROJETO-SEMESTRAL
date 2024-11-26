@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogos</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chat.css">
 </head>
 <body>
     <header>
@@ -56,8 +57,8 @@
             <h3 class="laranja">Jogo da  memória</h3>
             <p class="orange">Teste sua memória e desafie <br> seus limites jogando agora</p>
             <div class="seta">
-                <img src="img/setaJogo.png" alt=""></div>
-            <img src="img/jogo2.png" alt="Imagem do jogo Adivinha" class="imagem2">
+              <a href="../Jogos/Memoria/index.html"> <img src="img/setaJogo.png" alt=""></div></a>
+           <img src="img/jogo2.png" alt="Imagem do jogo Adivinha" class="imagem2"> 
         </div>
 
         <div class="jogoVerde">
@@ -65,7 +66,7 @@
             <h3 class="verde">Quizz</h3>
             <p class="green">Mostre todo o seu conhecimento <br> e divirta-se com este incrível Quiz! </p>
             <div class="setaV">
-                <img src="img/setaJogo.png" alt=""></div>
+                <a href="../Jogos/Quiz/index.html"><img src="img/setaJogo.png" alt=""></div></a>
             <img src="img/jogo3.png" alt="Imagem do jogo Adivinha" class="imagem3">
         </div>
     </section>
@@ -78,6 +79,32 @@
         <p class="text">Os jogos que estimulam a memória, o raciocínio lógico e o vocabulário são ferramentas eficazes para o desenvolvimento cognitivo, promovendo habilidades como concentração, criatividade e resolução de problemas. Além de oferecerem momentos de lazer, essas atividades fortalecem a aprendizagem, a retenção de informações e a flexibilidade mental, beneficiando tanto crianças quanto adultos ao exercitarem o cérebro e contribuírem para a saúde mental a longo prazo.</p></div>
     </div>
     
+
+
+
+
+     <!-- CHAT  -->
+     <div class="botaoCHAT">
+        <button id="abrir-chat-btn" class="abrir-chat-btn"><img src="Imagens/chat.png" alt=""></button>
+        <h1 class="explicacao">Chat Librali</h1>
+    </div>
+  <div class="container-chat escondido">
+    <div class="header-chat">
+      <span class="titulo-chat">Chat Librali</span>
+      <button id="fechar-chat-btn" class="fechar-chat-btn"><img src="Imagens/X.png" alt="Fechar"></button>
+    </div>
+    <div id="janela-chat" class="janela-chat"></div>
+    <div class="area-input">
+      <input type="text" id="entrada-usuario" placeholder="Digite sua mensagem...">
+      <button id="enviar-btn"><img class="setinha" src="Imagens/seta.png" alt=""></button>
+    </div>
+  </div>
+
+  <!-- TERMINA AQUI !!!!!! -->
+
+
+  
+
 
      <!-- EXTENSÃO DE LIBRAS -->
      <div vw class="enabled">
@@ -135,6 +162,7 @@
       <div class="barra-escura-footer"></div>
 
 
+      <script src="chat.js"></script>
 
     </main>
 </body>

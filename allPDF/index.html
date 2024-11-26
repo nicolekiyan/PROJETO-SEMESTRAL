@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PDF</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chat.css">
    
 </head>
 <body>
@@ -47,7 +48,7 @@
 
 
     <section class="secao-ebooks">
-        <h2>E-Books e PDFs</h2>
+        <h5>E-Books e PDFs</h5>
         <p> Explore os melhores e-books e PDFs para fortalecer ainda mais o seu aprendizado de LIBRAS,<BR> de forma totalmente gratuita</p>
         <div class="livros">
                 <div class="livro">
@@ -184,6 +185,26 @@
 
 
 
+ <!-- CHAT  -->
+ <div class="botaoCHAT">
+    <button id="abrir-chat-btn" class="abrir-chat-btn"><img src="Imagens/chat.png" alt=""></button>
+    <h1 class="explicacao">Chat Librali</h1>
+</div>
+<div class="container-chat escondido">
+<div class="header-chat">
+  <span class="titulo-chat">Chat Librali</span>
+  <button id="fechar-chat-btn" class="fechar-chat-btn"><img src="Imagens/X.png" alt="Fechar"></button>
+</div>
+<div id="janela-chat" class="janela-chat"></div>
+<div class="area-input">
+  <input type="text" id="entrada-usuario" placeholder="Digite sua mensagem...">
+  <button id="enviar-btn"><img class="setinha" src="Imagens/seta.png" alt=""></button>
+</div>
+</div>
+
+<!-- TERMINA AQUI !!!!!! -->
+
+
 
 
 
@@ -211,8 +232,8 @@
               <a href="../CURSOS/index.html"><li>Cursos</li></a>
               <a href="../BLOG/index.html"><li>Blog</li></a>
               <a href=""><li>Chat</li></a>
-              <a href=""><li>Dicionário</li></a>
-              <a href=""><li>Jogos</li></a>
+              <a href="../Dicionario/index.html"><li>Dicionário</li></a>
+              <a href="../PaginaDeJogos/index.html"><li>Jogos</li></a>
             </ul>
           </div>
       
@@ -240,6 +261,8 @@
   
       </footer>
       <div class="barra-escura-footer"></div>
+
+      <script src="chat.js"></script>
       
 </body>
 </html>

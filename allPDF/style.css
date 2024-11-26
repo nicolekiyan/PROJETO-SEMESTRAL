@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 @font-face {
@@ -273,10 +272,13 @@ body:not(.menu-aberto) #menu {
     color: #000000;
   }
   
-  .secao-ebooks h2 {
+  .secao-ebooks h5{
     font-size: 32px;
     margin-bottom: 20px;
+    font-family: "Fonte titulo";
+  
   }
+
   
   .livros {
     display: flex;
